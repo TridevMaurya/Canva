@@ -1,0 +1,312 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Base styles for the dark theme */
+  body {
+    @apply bg-deep-space text-text-light font-inter;
+  }
+  
+  /* Neon text colors */
+  .neon-text-green {
+    @apply text-neon-green drop-shadow-[0_0_10px_rgba(77,255,142,0.7)];
+  }
+  
+  .neon-text-purple {
+    @apply text-neon-purple drop-shadow-[0_0_10px_rgba(181,110,255,0.7)];
+  }
+  
+  .neon-text-blue {
+    @apply text-neon-blue drop-shadow-[0_0_10px_rgba(0,194,255,0.7)];
+  }
+  
+  .neon-text-pink {
+    @apply text-pink-500 drop-shadow-[0_0_10px_rgba(236,72,153,0.7)];
+  }
+  
+  .neon-text-teal {
+    @apply text-teal-400 drop-shadow-[0_0_10px_rgba(45,212,191,0.7)];
+  }
+  
+  .neon-text-orange {
+    @apply text-orange-500 drop-shadow-[0_0_10px_rgba(249,115,22,0.7)];
+  }
+  
+  .neon-text-yellow {
+    @apply text-yellow-400 drop-shadow-[0_0_10px_rgba(250,204,21,0.7)];
+  }
+  
+  .neon-text-red {
+    @apply text-red-500 drop-shadow-[0_0_10px_rgba(239,68,68,0.7)];
+  }
+  
+  .neon-text-cyan {
+    @apply text-cyan-400 drop-shadow-[0_0_10px_rgba(34,211,238,0.7)];
+  }
+  
+  .neon-text-amber {
+    @apply text-amber-500 drop-shadow-[0_0_10px_rgba(245,158,11,0.7)];
+  }
+  
+  /* Neon button styles */
+  .neon-button-green {
+    @apply bg-space-blue border border-neon-green text-neon-green shadow-[0_0_15px_rgba(77,255,142,0.4)] transition-all hover:shadow-[0_0_25px_rgba(77,255,142,0.6)];
+  }
+  
+  .neon-button-purple {
+    @apply bg-space-blue border border-neon-purple text-neon-purple shadow-[0_0_15px_rgba(181,110,255,0.4)] transition-all hover:shadow-[0_0_25px_rgba(181,110,255,0.6)];
+  }
+  
+  .neon-button-blue {
+    @apply bg-space-blue border border-neon-blue text-neon-blue shadow-[0_0_15px_rgba(0,194,255,0.4)] transition-all hover:shadow-[0_0_25px_rgba(0,194,255,0.6)];
+  }
+  
+  .neon-button-pink {
+    @apply bg-space-blue border border-pink-500 text-pink-500 shadow-[0_0_15px_rgba(236,72,153,0.4)] transition-all hover:shadow-[0_0_25px_rgba(236,72,153,0.6)];
+  }
+  
+  .neon-button-teal {
+    @apply bg-space-blue border border-teal-400 text-teal-400 shadow-[0_0_15px_rgba(45,212,191,0.4)] transition-all hover:shadow-[0_0_25px_rgba(45,212,191,0.6)];
+  }
+  
+  .neon-button-orange {
+    @apply bg-space-blue border border-orange-500 text-orange-500 shadow-[0_0_15px_rgba(249,115,22,0.4)] transition-all hover:shadow-[0_0_25px_rgba(249,115,22,0.6)];
+  }
+  
+  .neon-button-yellow {
+    @apply bg-space-blue border border-yellow-400 text-yellow-400 shadow-[0_0_15px_rgba(250,204,21,0.4)] transition-all hover:shadow-[0_0_25px_rgba(250,204,21,0.6)];
+  }
+  
+  .neon-button-red {
+    @apply bg-space-blue border border-red-500 text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.4)] transition-all hover:shadow-[0_0_25px_rgba(239,68,68,0.6)];
+  }
+  
+  .neon-button-cyan {
+    @apply bg-space-blue border border-cyan-400 text-cyan-400 shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all hover:shadow-[0_0_25px_rgba(34,211,238,0.6)];
+  }
+  
+  .neon-button-amber {
+    @apply bg-space-blue border border-amber-500 text-amber-500 shadow-[0_0_15px_rgba(245,158,11,0.4)] transition-all hover:shadow-[0_0_25px_rgba(245,158,11,0.6)];
+  }
+  
+  /* Neon border styles */
+  .neon-border-green {
+    @apply border border-neon-green shadow-[0_0_10px_rgba(77,255,142,0.4)];
+  }
+  
+  .neon-border-purple {
+    @apply border border-neon-purple shadow-[0_0_10px_rgba(181,110,255,0.4)];
+  }
+  
+  .neon-border-blue {
+    @apply border border-neon-blue shadow-[0_0_10px_rgba(0,194,255,0.4)];
+  }
+  
+  .neon-border-pink {
+    @apply border border-pink-500 shadow-[0_0_10px_rgba(236,72,153,0.4)];
+  }
+  
+  .neon-border-teal {
+    @apply border border-teal-400 shadow-[0_0_10px_rgba(45,212,191,0.4)];
+  }
+  
+  .neon-border-orange {
+    @apply border border-orange-500 shadow-[0_0_10px_rgba(249,115,22,0.4)];
+  }
+  
+  .neon-border-yellow {
+    @apply border border-yellow-400 shadow-[0_0_10px_rgba(250,204,21,0.4)];
+  }
+  
+  .neon-border-red {
+    @apply border border-red-500 shadow-[0_0_10px_rgba(239,68,68,0.4)];
+  }
+  
+  .neon-border-cyan {
+    @apply border border-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.4)];
+  }
+  
+  .neon-border-amber {
+    @apply border border-amber-500 shadow-[0_0_10px_rgba(245,158,11,0.4)];
+  }
+
+  /* Glass panel effect */
+  .glass-panel {
+    @apply bg-space-blue/50 backdrop-blur-lg border border-white/10;
+  }
+  
+  /* Grid overlay for the futuristic look */
+  .grid-overlay {
+    background-image: linear-gradient(to right, rgba(30, 41, 59, 0.05) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(30, 41, 59, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  
+  /* Animated floating effect */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Custom button classes with glowing borders */
+  .button-green {
+    border: 2px solid #4dff8e;
+    box-shadow: 0 0 15px rgba(77, 255, 142, 0.6), inset 0 0 8px rgba(77, 255, 142, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-green:hover {
+    box-shadow: 0 0 20px rgba(77, 255, 142, 0.8), inset 0 0 12px rgba(77, 255, 142, 0.5);
+  }
+  
+  .button-purple {
+    border: 2px solid #b56eff;
+    box-shadow: 0 0 15px rgba(181, 110, 255, 0.6), inset 0 0 8px rgba(181, 110, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-purple:hover {
+    box-shadow: 0 0 20px rgba(181, 110, 255, 0.8), inset 0 0 12px rgba(181, 110, 255, 0.5);
+  }
+  
+  .button-blue {
+    border: 2px solid #00c2ff;
+    box-shadow: 0 0 15px rgba(0, 194, 255, 0.6), inset 0 0 8px rgba(0, 194, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-blue:hover {
+    box-shadow: 0 0 20px rgba(0, 194, 255, 0.8), inset 0 0 12px rgba(0, 194, 255, 0.5);
+  }
+  
+  .button-pink {
+    border: 2px solid #ec4899;
+    box-shadow: 0 0 15px rgba(236, 72, 153, 0.6), inset 0 0 8px rgba(236, 72, 153, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-pink:hover {
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.8), inset 0 0 12px rgba(236, 72, 153, 0.5);
+  }
+  
+  .button-teal {
+    border: 2px solid #2dd4bf;
+    box-shadow: 0 0 15px rgba(45, 212, 191, 0.6), inset 0 0 8px rgba(45, 212, 191, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-teal:hover {
+    box-shadow: 0 0 20px rgba(45, 212, 191, 0.8), inset 0 0 12px rgba(45, 212, 191, 0.5);
+  }
+  
+  .button-orange {
+    border: 2px solid #f97316;
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.6), inset 0 0 8px rgba(249, 115, 22, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-orange:hover {
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.8), inset 0 0 12px rgba(249, 115, 22, 0.5);
+  }
+  
+  .button-yellow {
+    border: 2px solid #facc15;
+    box-shadow: 0 0 15px rgba(250, 204, 21, 0.6), inset 0 0 8px rgba(250, 204, 21, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-yellow:hover {
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.8), inset 0 0 12px rgba(250, 204, 21, 0.5);
+  }
+  
+  .button-red {
+    border: 2px solid #ef4444;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6), inset 0 0 8px rgba(239, 68, 68, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-red:hover {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.8), inset 0 0 12px rgba(239, 68, 68, 0.5);
+  }
+  
+  .button-cyan {
+    border: 2px solid #22d3ee;
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.6), inset 0 0 8px rgba(34, 211, 238, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-cyan:hover {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.8), inset 0 0 12px rgba(34, 211, 238, 0.5);
+  }
+  
+  .button-amber {
+    border: 2px solid #f59e0b;
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.6), inset 0 0 8px rgba(245, 158, 11, 0.3);
+    transition: all 0.3s ease;
+  }
+  .button-amber:hover {
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.8), inset 0 0 12px rgba(245, 158, 11, 0.5);
+  }
+  
+  /* Neon pulse effect for buttons */
+  .neon-pulse {
+    animation: neon-pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes neon-pulse {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px currentColor;
+    }
+    50% {
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3), 0 0 30px currentColor;
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px currentColor;
+    }
+  }
+  
+  /* Button hover glow effect */
+  .btn-glow:hover {
+    box-shadow: 0 0 5px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+    text-shadow: 0 0 5px currentColor;
+    transition: all 0.3s ease;
+  }
+  
+  /* Border shimmer effect */
+  .border-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .border-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 3s infinite;
+  }
+  
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}

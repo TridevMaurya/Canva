@@ -1,0 +1,84 @@
+Website Overview:
+We are building a tech-driven blog platform that provides users with free Canva Pro access through backlinks. The site should have a futuristic, dark-themed design with vibrant contrasting colors for a modern, high-tech look.
+
+At the top of the website, prominently display:
+🟢 "NoPay Club by Tridev" in large, bold text to establish branding.
+
+The site should have a full 3D immersive view, ensuring a cutting-edge user experience.
+
+Website Layout & Features:
+1. Header Section:
+A bold, large banner displaying "NoPay Club by Tridev".
+
+The header should use a neon-glow effect for a high-tech aesthetic.
+
+The "CANVA TEAM" button should be easily accessible.
+
+2. Blog Section (Top Section):
+Display 4 interactive blog boxes in a tech-inspired grid layout.
+
+Each box should have a 3D hover effect, expanding when clicked to show the full article.
+
+Blog topics:
+
+Future of AI & Tech
+
+Upcoming Innovations in Digital Tools
+
+Canva Pro vs Other Design Platforms
+
+Best AI Tools for Content Creation
+
+The blog section should have a smooth animation transition on click.
+
+3. Canva Pro Access Section (Middle Section):
+Below the blog section, include 10 neon-styled "Get Canva Team" buttons.
+
+Each button should trigger:
+
+A reward ad before access.
+
+A prompt to subscribe to our Instagram.
+
+After completion, users get redirected to the Canva invite link.
+
+The buttons should glow on hover to maintain the futuristic, high-tech theme.
+
+4. Internship Section (Lower Section):
+An "Apply for Internship" section, exclusive to NIT Raipur students.
+
+Include details about:
+
+Eligibility
+
+How to Apply
+
+Internship Benefits
+
+This section should have holographic 3D elements to match the overall tech aesthetic.
+
+5. Application Form (Bottom Section):
+A floating, futuristic form with fields for:
+
+Name
+
+Email
+
+Contact Number
+
+Resume Upload
+
+The form should be minimalist yet visually engaging, ensuring a seamless user experience.
+
+Design & Functionality Considerations:
+Dark theme with vibrant neon colors (blue, green, purple contrast).
+
+3D visual elements for an immersive, futuristic effect.
+
+Glowing buttons & hover animations for a high-tech user experience.
+
+Fast and responsive design optimized for Hostinger deployment.
+
+Mobile-first approach ensuring seamless functionality on all devices.
+
+SEO-optimized blogs to drive traffic.
